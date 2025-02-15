@@ -1,4 +1,8 @@
 # Ducky_Valentine 
+WARNING: The commented-out code in "Happy Valentine" is just to demonstrate how powerful this can be.
+(I have taken extra measures to ensure it cannot be run by mistake by removing parts of the code and intentionally creating errors.)
+Use this at your own risk.
+
 A Pico Ducky payload that executes a Valentine-themed Python script on the target machine. The script displays a pop-up asking the recipient out. 
 If they decline multiple times ("No"), the script humorously increases the "threat level" by doing progressively and in the end can destroy the OS 
 
@@ -11,6 +15,8 @@ EXPLANATION:
 
 -The script automatically runs the executable, which pops up a GUI asking the target to be their Valentine.
 
+-In the demo payload, it is programed to open 10 edge tabs and delete a single file in the current dir 
+
 STEPS:
 1.Install Adafruit CircuitPython and flash it to your Pico.
 
@@ -20,7 +26,5 @@ STEPS:
 
 3.Rename payload.txt to .dd and upload it to the Pico running CircuitPython.
 
-WARNING: The commented-out code in "Happy Valentine" is just to demonstrate how powerful this can be.
-(I have taken extra measures to ensure it cannot be run by mistake by removing parts of the code and intentionally creating errors.)
-Use this at your own risk.
+
 
